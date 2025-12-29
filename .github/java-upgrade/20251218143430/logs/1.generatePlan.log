@@ -1,0 +1,49 @@
+2025-12-18T14:34:30.575Z [INFO] Initializing project configuration...
+2025-12-18T14:34:30.575Z [INFO] Project c:/Users/x1503za-l1163w/eclipse-workspace/playwright-demo is a maven project, try to get java version from pom.xml
+2025-12-18T14:34:30.576Z [INFO] Project java version: 11
+2025-12-18T14:34:30.576Z [INFO] Maven project detected.
+2025-12-18T14:34:30.576Z [INFO] Build tool type: mvn
+2025-12-18T14:34:30.576Z [INFO] [Environment] Running command (Java 11): java -version
+openjdk version "21.0.8" 2025-07-15 LTS
+OpenJDK Runtime Environment Microsoft-11933218 (build 21.0.8+9-LTS)
+OpenJDK 64-Bit Server VM Microsoft-11933218 (build 21.0.8+9-LTS, mixed mode, sharing)
+2025-12-18T14:34:30.683Z [INFO] [JdkEnvironment] Got real Java version: 21.0.8
+2025-12-18T14:34:30.683Z [ERROR] The version(21) of provided JDK c:\Users\x1503za-l1163w\.jdk\jdk-21.0.8\bin doesn't match the required Java version 11.
+2025-12-18T14:34:30.736Z [INFO] [Environment] Running command (Java 11.0.28): java -version
+openjdk version "11.0.28" 2025-07-15 LTS
+OpenJDK Runtime Environment Microsoft-11913448 (build 11.0.28+6-LTS)
+OpenJDK 64-Bit Server VM Microsoft-11913448 (build 11.0.28+6-LTS, mixed mode, sharing)
+2025-12-18T14:34:30.849Z [INFO] [JdkEnvironment] Got real Java version: 11.0.28
+2025-12-18T14:34:30.849Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\x1503za-l1163w\\.jdk\\jdk-11.0.28\\bin",
+  "version": "11",
+  "source": "install"
+}
+2025-12-18T14:34:30.860Z [INFO] [Environment] Running command (Java 11): mvn --version
+The system cannot find the path specified.
+2025-12-18T14:34:30.896Z [ERROR] Failed to get the version of build tool at "C:\Program Files\Apache\Maven\apache-maven-4.0.0-rc-5\bin\mvn.cmd\bin" with error:
+Error: Failed to run command: "mvn --version" with error code 1
+The system cannot find the path specified..
+2025-12-18T14:34:30.906Z [INFO] [Environment] Running command (Java 11): mvn --version
+Error: Apache Maven 4.x requires Java 17 or newer to run. 
+openjdk version "11.0.28" 2025-07-15 LTS
+OpenJDK Runtime Environment Microsoft-11913448 (build 11.0.28+6-LTS)
+OpenJDK 64-Bit Server VM Microsoft-11913448 (build 11.0.28+6-LTS, mixed mode, sharing)
+Please upgrade your Java installation or set JAVA_HOME to point to a compatible JDK. 
+2025-12-18T14:34:31.035Z [ERROR] Failed to get the version of build tool at "C:\Program Files\Apache\Maven\apache-maven-4.0.0-rc-5\bin" with error:
+Error: Failed to run command: "mvn --version" with error code 1
+Error: Apache Maven 4.x requires Java 17 or newer to run. 
+openjdk version "11.0.28" 2025-07-15 LTS
+OpenJDK Runtime Environment Microsoft-11913448 (build 11.0.28+6-LTS)
+OpenJDK 64-Bit Server VM Microsoft-11913448 (build 11.0.28+6-LTS, mixed mode, sharing)
+Please upgrade your Java installation or set JAVA_HOME to point to a compatible JDK..
+2025-12-18T14:34:31.035Z [ERROR] Failed to prepare project configuration or init upgrade options: Failed to get the version of build tool at "C:\Program Files\Apache\Maven\apache-maven-4.0.0-rc-5\bin" with error:
+Error: Failed to run command: "mvn --version" with error code 1
+Error: Apache Maven 4.x requires Java 17 or newer to run. 
+openjdk version "11.0.28" 2025-07-15 LTS
+OpenJDK Runtime Environment Microsoft-11913448 (build 11.0.28+6-LTS)
+OpenJDK 64-Bit Server VM Microsoft-11913448 (build 11.0.28+6-LTS, mixed mode, sharing)
+Please upgrade your Java installation or set JAVA_HOME to point to a compatible JDK..
+
+Please provide a valid Maven installation. You may find another valid installation or guide user to install one first..

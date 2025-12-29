@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite" parallel="none">
+  <test name="UI Smoke">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="ui"/>
+      </run>
+    </groups>
+
+    <classes>
+      <class name="org.example.HeadingsTest"/>
+    </classes>
+  </test>
+</suite>
+<!-- later: enable parallel runs once BaseTest is suite/thread-safe -->
+<!-- <suite name="Smoke Suite" parallel="methods" thread-count="4"> -->
